@@ -6,6 +6,13 @@ name = "pypi"
 [packages]
 django = "*"
 gunicorn = "*"
+django-crispy-forms = "*"
+pillow = "*"
+python-decouple = "*"
+dj-database-url = "*"
+django-s3-folder-storage = "*"
+flake8 = "*"
+collectfast = "*"
 
 [dev-packages]
 
