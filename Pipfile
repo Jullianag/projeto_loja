@@ -14,6 +14,9 @@ django-s3-folder-storage = "*"
 flake8 = "*"
 collectfast = "*"
 psycopg2-binary = "*"
+pylint = "*"
+pylint-django = "*"
+django-debug-toolbar = "*"
 
 [dev-packages]
 

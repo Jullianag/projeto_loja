@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36201654-d4e3-4fd0-854e-46b5bf30a6cc" name="Changes" comment="configuração de todos os urls.py dos appnames, e também iniciando os views.py de cada um." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BoXJgiBafQ63wUDhtMdp1RbWzN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36201654-d4e3-4fd0-854e-46b5bf30a6cc" name="Changes" comment="" />
+      <created>1657573340458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657573340458</updated>
+      <workItem from="1657573344391" duration="13000" />
+      <workItem from="1657573391476" duration="18595000" />
+    </task>
+    <task id="LOCAL-00001" summary="primeiro">
+      <created>1657574901676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657574901676</updated>
+    </task>
+    <task id="LOCAL-00002" summary="primeiro">
+      <created>1657574991138</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657574991138</updated>
+    </task>
+    <task id="LOCAL-00003" summary="configurando settings.py">
+      <created>1657661698337</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657661698337</updated>
+    </task>
+    <task id="LOCAL-00004" summary="configurando settings.py">
+      <created>1657661783858</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657661783858</updated>
+    </task>
+    <task id="LOCAL-00005" summary="configurando arquivo yml">
+      <created>1657661983636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657661983636</updated>
+    </task>
+    <task id="LOCAL-00006" summary="flake8">
+      <created>1657662252828</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657662252828</updated>
+    </task>
+    <task id="LOCAL-00007" summary="flake8">
+      <created>1657662584923</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657662584924</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ajustando configurações para flake8">
+      <created>1657663129140</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657663129140</updated>
+    </task>
+    <task id="LOCAL-00009" summary="instalando psycopg2">
+      <created>1657663749557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657663749557</updated>
+    </task>
+    <task id="LOCAL-00010" summary="instalando psycopg2">
+      <created>1657664440332</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657664440332</updated>
+    </task>
+    <task id="LOCAL-00011" summary="configuração de todos os urls.py dos appnames, e também iniciando os views.py de cada um.">
+      <created>1657831948720</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657831948720</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primeiro" />
+    <MESSAGE value="configurando settings.py" />
+    <MESSAGE value="configurando arquivo yml" />
+    <MESSAGE value="flake8" />
+    <MESSAGE value="ajustando configurações para flake8" />
+    <MESSAGE value="instalando psycopg2" />
+    <MESSAGE value="configuração de todos os urls.py dos appnames, e também iniciando os views.py de cada um." />
+    <option name="LAST_COMMIT_MESSAGE" value="configuração de todos os urls.py dos appnames, e também iniciando os views.py de cada um." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/loja/urls.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
