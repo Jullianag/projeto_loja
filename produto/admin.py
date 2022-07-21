@@ -8,7 +8,7 @@ class VariacaoInline(admin.TabularInline):
 
 
 class ProdutoAdmin(admin.ModelAdmin):
-    list_display = ['nome', 'get_preco_marketing', 'get_preco_marketing_promocional']
+    list_display = ['nome', 'get_preco_formatado', 'get_preco_promocional_formatado']
     inlines = [
         VariacaoInline
     ]

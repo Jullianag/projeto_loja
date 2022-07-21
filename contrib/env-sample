@@ -7,3 +7,5 @@ AWS_SECRET_ACCESS_KEY=
 AWS_STORAGE_BUCKET_NAME=
 
 DATABASE_URL=postgres://postgres:postgres@localhost/testdb
+
+INTERNAL_IPS=127.0.0.1

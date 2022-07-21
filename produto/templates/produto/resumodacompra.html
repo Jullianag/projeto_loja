@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% load jgfilters %}
+{% block titulo %}Resumo da compra | {% endblock %}
+
+{% block conteudo %}
+
+<style>
+    .div-1 {
+        background-color: #27936d;
+    }
+    .div-2 {
+        background-color: #0b6242;
+    }
+    .div-3 {
+        color: #27936d;
+    }
+    .underline {
+        text-decoration: underline;
+}
+</style>
+
+
+<div class="row mb-5">
+            <div class="col-lg">
+                <h2>Resumo da sua compra</h2>
+
+                <p class="lead">Dados do usuário</p>
+                <p>Caso precise editar, <a href="{% url 'perfil:criar' %}">clique aqui</a></p>
+                <dl class="row">
+                    <dt class="col-lg-2">Nome:</dt>
+                    <dd class="col-lg-4">{{ usuario.first_name }}</dd>
+                    <dt class="col-lg-2">Sobrenome:</dt>
+                    <dd class="col-lg-4">{{ usuario.last_name }}</dd>
+
+                    <dt class="col-lg-2">Idade:</dt>
+                    <dd class="col-lg-4">{{ usuario.perfil.idade }}</dd>
+                    <dt class="col-lg-2">Nascimento:</dt>
+                    <dd class="col-lg-4">{{ usuario.perfil.data_nascimento }}</dd>
+
+                    <dt class="col-lg-2">CPF:</dt>
+                    <dd class="col-lg-4">{{ usuario.perfil.cpf }}</dd>
+                    <dt class="col-lg-2">E-mail:</dt>
+                    <dd class="col-lg-4">{{ usuario.email }}</dd>
+                </dl>
+
+                <p class="lead">Dados de endereço</p>
+
+                <dl class="row">
+                    <dt class="col-lg-2">Endereço:</dt>
+                    <dd class="col-lg-4">{{ usuario.perfil.endereco }}</dd>
+                    <dt class="col-lg-2">Número:</dt>
+                    <dd class="col-lg-4">{{ usuario.perfil.numero }}</dd>
+
+                    <dt class="col-lg-2">Complemento:</dt>
+                    <dd class="col-lg-4">{{ usuario.perfil.complement }}</dd>
+                    <dt class="col-lg-2">Nascimento:</dt>
+                    <dd class="col-lg-4">{{ usuario.perfil.bairro }}</dd>
+
+                    <dt class="col-lg-2">Cidade:</dt>
+                    <dd class="col-lg-4">{{ usuario.perfil.estado }}</dd>
+                    <dt class="col-lg-2">Estado:</dt>
+                    <dd class="col-lg-4">{{ usuario.perfil.estado}}</dd>
+
+                    <dt class="col-lg-2">CEP:</dt>
+                    <dd class="col-lg-4">{{ usuario.perfil.cep}}</dd>
+                </dl>
+            </div>
+        </div>
+
+             <div class="row mt-3">
+            <div class="col">
+                <h3>Resumo do carrinho</h3>
+                <p class="lead">Os produtos, quantidades e preços que você escolheu.</p>
+
+                {% include 'parciais/_carrinho.html' %}
+                <br>
+                <p class="lead text-center">Total do carrinho: {{ carrinho|cart_totals|formata_preco }}</p>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="col">
+                <a class="btn  div-2 text-light btn-lg" href="{% url 'produto:resumodacompra' %}">
+                    Realizar pedido e pagar
+                </a>
+            </div>
+        </div>
+
+{% endblock %}

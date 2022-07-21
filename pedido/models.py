@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 class Pedido(models.Model):
     usuario = models.ForeignKey(User, on_delete=models.CASCADE)
     total = models.FloatField()
+    qtd_total = models.PositiveIntegerField()
     status = models.CharField(
         default='C',
         max_length=1,
@@ -32,6 +33,7 @@ class ItemPedido(models.Model):
     preco_promocional = models.FloatField(default=0)
     quantidade = models.PositiveIntegerField()
     imagem = models.CharField(max_length=2000)
+    qtd_total = models.PositiveIntegerField()
 
     def __str__(self):
         return f'Item do {self.pedido}'
