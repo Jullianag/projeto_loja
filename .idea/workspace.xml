@@ -4,41 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36201654-d4e3-4fd0-854e-46b5bf30a6cc" name="Changes" comment="configuração de todos os urls.py dos appnames, e também iniciando os views.py de cada um.">
-      <change afterPath="$PROJECT_DIR$/pedido/templates/pedido/detalhe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pedido/templates/pedido/lista.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pedido/templates/pedido/pagar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perfil/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perfil/templates/perfil/atualizar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perfil/templates/perfil/criar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/produto/templates/produto/carrinho.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/produto/templates/produto/detalhe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/produto/templates/produto/lista.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/produto/templates/produto/resumodacompra.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/produto/templatetags/jgfilters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parciais/_carrinho.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parciais/_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parciais/_head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parciais/_messages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parciais/_nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parciais/_pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parciais/_pedido.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+    <list default="true" id="36201654-d4e3-4fd0-854e-46b5bf30a6cc" name="Changes" comment="configurando templates">
       <change beforePath="$PROJECT_DIR$/contrib/env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/loja/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/loja/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfil/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/perfil/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfil/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/perfil/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produto/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produto/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produto/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produto/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/produto/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +65,7 @@
       <updated>1657573340458</updated>
       <workItem from="1657573344391" duration="13000" />
       <workItem from="1657573391476" duration="38225000" />
-      <workItem from="1658094338733" duration="45527000" />
+      <workItem from="1658094338733" duration="46220000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro">
       <created>1657574901676</created>
@@ -184,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657832281000</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="configurando templates">
+      <created>1658444067341</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658444067341</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +183,7 @@
     <MESSAGE value="ajustando configurações para flake8" />
     <MESSAGE value="instalando psycopg2" />
     <MESSAGE value="configuração de todos os urls.py dos appnames, e também iniciando os views.py de cada um." />
-    <option name="LAST_COMMIT_MESSAGE" value="configuração de todos os urls.py dos appnames, e também iniciando os views.py de cada um." />
+    <MESSAGE value="configurando templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="configurando templates" />
   </component>
 </project>
