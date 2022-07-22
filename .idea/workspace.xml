@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36201654-d4e3-4fd0-854e-46b5bf30a6cc" name="Changes" comment="procfile (arrumando)">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produto/templates/produto/detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/produto/templates/produto/detalhe.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -65,7 +71,7 @@
       <updated>1657573340458</updated>
       <workItem from="1657573344391" duration="13000" />
       <workItem from="1657573391476" duration="38225000" />
-      <workItem from="1658094338733" duration="47095000" />
+      <workItem from="1658094338733" duration="48734000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro">
       <created>1657574901676</created>
@@ -179,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658523772145</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="procfile (arrumando)">
+      <created>1658524155732</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658524155732</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
