@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36201654-d4e3-4fd0-854e-46b5bf30a6cc" name="Changes" comment="procfile">
+    <list default="true" id="36201654-d4e3-4fd0-854e-46b5bf30a6cc" name="Changes" comment="procfile (arrumando)">
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +65,7 @@
       <updated>1657573340458</updated>
       <workItem from="1657573344391" duration="13000" />
       <workItem from="1657573391476" duration="38225000" />
-      <workItem from="1658094338733" duration="46705000" />
+      <workItem from="1658094338733" duration="47095000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro">
       <created>1657574901676</created>
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658523505231</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="procfile (arrumando)">
+      <created>1658523772145</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658523772145</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +206,7 @@
     <MESSAGE value="configuração de todos os urls.py dos appnames, e também iniciando os views.py de cada um." />
     <MESSAGE value="configurando templates" />
     <MESSAGE value="procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="procfile" />
+    <MESSAGE value="procfile (arrumando)" />
+    <option name="LAST_COMMIT_MESSAGE" value="procfile (arrumando)" />
   </component>
 </project>
