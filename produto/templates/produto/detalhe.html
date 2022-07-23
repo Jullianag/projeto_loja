@@ -1,8 +1,27 @@
 {% extends 'base.html' %}
 {% load jgfilters %}
+{% load static %}
 {% block titulo %}{{ produdo.nome }} | {% endblock %}
 
 {% block conteudo %}
+
+<style>
+    .div-1 {
+        background-color: #27936d;
+    }
+    .div-2 {
+        background-color: #0b6242;
+    }
+    .div-3 {
+        color: #27936d;
+    }
+    .underline {
+        text-decoration: underline;
+}
+    .div-4 {
+        color: #0b6242;
+    }
+</style>
 
       <div class="row">
             <div class="col-lg-12">
@@ -71,8 +90,11 @@
                         </div>
                     </div>
                 </div>
-
+                    <a class="div-4" href="{% url 'produto:lista' %}">
+                        <img src="{% static 'seta.png' %}" style="max-width: 50px; height: auto">
+                    </a>
             </div>
+
         </div>
 
 {% endblock %}

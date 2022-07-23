@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36201654-d4e3-4fd0-854e-46b5bf30a6cc" name="Changes" comment="procfile (arrumando)">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="36201654-d4e3-4fd0-854e-46b5bf30a6cc" name="Changes" comment="botão">
+      <change afterPath="$PROJECT_DIR$/templates/static/seta.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/produto/templates/produto/detalhe.html" beforeDir="false" afterPath="$PROJECT_DIR$/produto/templates/produto/detalhe.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/julliana/PycharmProjects/projeto_loja/media/produto_imagens/2022/07",
+    "last_opened_file_path": "/home/julliana/PycharmProjects/projeto_loja/templates/static",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,6 +57,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/static" />
       <recent name="$PROJECT_DIR$/media/produto_imagens/2022/07" />
       <recent name="$PROJECT_DIR$/media/produto_imagens" />
     </key>
@@ -71,7 +72,7 @@
       <updated>1657573340458</updated>
       <workItem from="1657573344391" duration="13000" />
       <workItem from="1657573391476" duration="38225000" />
-      <workItem from="1658094338733" duration="48734000" />
+      <workItem from="1658094338733" duration="50810000" />
     </task>
     <task id="LOCAL-00001" summary="primeiro">
       <created>1657574901676</created>
@@ -192,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658524155732</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Deixando a visualização melhor.&#10;README">
+      <created>1658527530190</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658527530190</updated>
+    </task>
+    <task id="LOCAL-00019" summary="botão">
+      <created>1658527735577</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658527735577</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +235,8 @@
     <MESSAGE value="configurando templates" />
     <MESSAGE value="procfile" />
     <MESSAGE value="procfile (arrumando)" />
-    <option name="LAST_COMMIT_MESSAGE" value="procfile (arrumando)" />
+    <MESSAGE value="Deixando a visualização melhor.&#10;README" />
+    <MESSAGE value="botão" />
+    <option name="LAST_COMMIT_MESSAGE" value="botão" />
   </component>
 </project>
